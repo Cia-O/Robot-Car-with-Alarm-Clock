@@ -12149,7 +12149,7 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "Arduino Mega 2560"
 			(at 132.08 92.71 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12159,7 +12159,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Module:Arduino_UNO_R3"
+		(property "Footprint" ""
 			(at 132.08 92.71 0)
 			(hide yes)
 			(show_name no)
