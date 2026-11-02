@@ -6258,8 +6258,8 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "Q"
-				(at 5.08 1.27 0)
+			(property "Reference" "Q1"
+				(at 5.08 1.2701 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -6269,8 +6269,8 @@
 					(justify left)
 				)
 			)
-			(property "Value" "Q_NPN_BCE"
-				(at 5.08 -1.27 0)
+			(property "Value" "Transistor"
+				(at 5.08 -1.2699 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -7279,6 +7279,16 @@
 	)
 	(wire
 		(pts
+			(xy 120.65 176.53) (xy 120.65 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11e0ae43-77db-4947-89f4-cf0075b7d240")
+	)
+	(wire
+		(pts
 			(xy 43.18 88.9) (xy 43.18 93.98)
 		)
 		(stroke
@@ -7399,6 +7409,16 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 180.34) (xy 77.47 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f252fba-c776-434a-8a10-2de40977e1fb")
+	)
+	(wire
+		(pts
 			(xy 219.71 134.62) (xy 167.64 134.62)
 		)
 		(stroke
@@ -7426,6 +7446,16 @@
 			(type default)
 		)
 		(uuid "2116291a-aa6f-4f26-aa98-c0496aa238bb")
+	)
+	(wire
+		(pts
+			(xy 154.94 195.58) (xy 154.94 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2138857c-c382-4a99-b472-2989e924fae0")
 	)
 	(wire
 		(pts
@@ -7509,6 +7539,16 @@
 	)
 	(wire
 		(pts
+			(xy 91.44 193.04) (xy 91.44 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26a4d0b0-96bd-4592-b641-3424f9606b20")
+	)
+	(wire
+		(pts
 			(xy 55.88 93.98) (xy 59.69 93.98)
 		)
 		(stroke
@@ -7566,6 +7606,16 @@
 			(type default)
 		)
 		(uuid "2f04b6ad-9db8-494e-a788-826821f09e79")
+	)
+	(wire
+		(pts
+			(xy 91.44 195.58) (xy 154.94 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f530d1e-10f6-44e9-9eb8-f8dca2cdc07e")
 	)
 	(wire
 		(pts
@@ -7829,6 +7879,16 @@
 	)
 	(wire
 		(pts
+			(xy 77.47 190.5) (xy 91.44 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45dced02-7988-4dc4-bb97-6d468b2881a6")
+	)
+	(wire
+		(pts
 			(xy 78.74 118.11) (xy 54.61 118.11)
 		)
 		(stroke
@@ -7979,7 +8039,17 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 125.73) (xy 54.61 123.19)
+			(xy 77.47 180.34) (xy 77.47 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5237812c-66b9-4279-aabc-1c82070c9cbd")
+	)
+	(wire
+		(pts
+			(xy 54.61 125.73) (xy 54.61 124.46)
 		)
 		(stroke
 			(width 0)
@@ -8086,16 +8156,6 @@
 			(type default)
 		)
 		(uuid "582673ed-8185-4334-8e18-d18118ffcd9a")
-	)
-	(wire
-		(pts
-			(xy 120.65 180.34) (xy 88.9 180.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "58f92c84-d766-411f-a776-fc33fed07c47")
 	)
 	(wire
 		(pts
@@ -8659,7 +8719,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 118.11) (xy 54.61 120.65)
+			(xy 54.61 118.11) (xy 54.61 121.92)
 		)
 		(stroke
 			(width 0)
@@ -8726,6 +8786,16 @@
 			(type default)
 		)
 		(uuid "ab946f24-6182-4f22-89e4-3616520da45b")
+	)
+	(wire
+		(pts
+			(xy 154.94 176.53) (xy 120.65 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aecd27eb-67c7-45f1-bd59-a8bd5153c59f")
 	)
 	(wire
 		(pts
@@ -9996,7 +10066,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "AurBit:WiredLEDs"
 			(at 45.212 93.98 90)
 			(hide yes)
 			(show_name no)
@@ -10079,7 +10149,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "AurBit:Wired_Solder_4Pins"
 			(at 209.55 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -10436,7 +10506,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "AurBit:Wired_Solder_4Pins"
 			(at 147.32 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -11431,7 +11501,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "AurBit:WiredLEDs"
 			(at 255.27 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -11514,7 +11584,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "AurBit:Wired_Solder_4Pins"
 			(at 125.73 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -11646,6 +11716,88 @@
 			(project "AurBit PCB"
 				(path "/ded9e70f-fd5e-44d7-855d-825746fc90e2"
 					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 96.52 190.5 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3ed67c9e-0f14-4176-912f-da403b050f4d")
+		(property "Reference" "J20"
+			(at 99.06 190.4999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "switch"
+			(at 99.06 193.0399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "AurBit:WiredLEDs"
+			(at 96.52 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 96.52 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "52dd2be6-d3e9-4ee6-9788-977bd065e291")
+		)
+		(pin "2"
+			(uuid "78ab8ed8-132c-46a5-ab15-6cee3cc9adb8")
+		)
+		(instances
+			(project "AurBit PCB"
+				(path "/ded9e70f-fd5e-44d7-855d-825746fc90e2"
+					(reference "J20")
 					(unit 1)
 				)
 			)
@@ -11841,7 +11993,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "AurBit:WiredLEDs"
 			(at 51.562 152.4 90)
 			(hide yes)
 			(show_name no)
@@ -12159,7 +12311,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Aurbit:AurBit_Arduino_Mega_2560_R3"
 			(at 132.08 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -12846,7 +12998,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "AurBit:WiredLEDs"
 			(at 93.98 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -13396,7 +13548,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
 			(at 43.18 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -13717,7 +13869,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline_Wide"
 			(at 54.61 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -14059,7 +14211,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:TO-263-7_TabPin8"
+		(property "Footprint" "AurBit:Wired_Solder_4Pins"
 			(at 214.63 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -14304,7 +14456,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "AurBit:Wired_Solder_4Pins"
 			(at 177.8 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -14392,7 +14544,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "AurBit:WiredLEDs"
 			(at 256.54 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -14474,7 +14626,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "AurBit:WiredLEDs"
 			(at 256.54 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -14556,7 +14708,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "AurBit:Wired_Solder_4Pins"
 			(at 139.7 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -14613,7 +14765,7 @@
 	(symbol
 		(lib_name "Conn_01x02_2")
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 59.69 120.65 0)
+		(at 59.69 121.92 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14624,7 +14776,7 @@
 		(fields_autoplaced yes)
 		(uuid "baa7d159-40a6-4900-ae84-e754dc206e6f")
 		(property "Reference" "J12"
-			(at 62.23 120.6499 0)
+			(at 62.23 121.9199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14635,7 +14787,7 @@
 			)
 		)
 		(property "Value" "LED FRONT2"
-			(at 62.23 123.1899 0)
+			(at 62.23 124.4599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14645,8 +14797,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 59.69 120.65 0)
+		(property "Footprint" "AurBit:WiredLEDs"
+			(at 59.69 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14657,7 +14809,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 59.69 120.65 0)
+			(at 59.69 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14668,7 +14820,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 59.69 120.65 0)
+			(at 59.69 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14728,7 +14880,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "AurBit:WiredLEDs"
 			(at 22.86 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -14967,7 +15119,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "AurBit:Wired_Solder_4Pins"
 			(at 111.76 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -15133,7 +15285,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "AurBit:WiredLEDs"
 			(at 76.962 95.25 90)
 			(hide yes)
 			(show_name no)
@@ -15294,7 +15446,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:TO-263-7_TabPin8"
+		(property "Footprint" "AurBit:Wired_Solder_4Pins"
 			(at 118.11 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -15539,7 +15691,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "AurBit:WiredLEDs"
 			(at 24.13 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -15622,7 +15774,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "AurBit:WiredLEDs"
 			(at 21.59 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -15704,7 +15856,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "AurBit:WiredLEDs"
 			(at 255.27 29.21 0)
 			(hide yes)
 			(show_name no)
