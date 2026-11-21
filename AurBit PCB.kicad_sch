@@ -519,8 +519,8 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at 0.254 38.1 0)
+			(property "Reference" "U1"
+				(at 5.715 40.64 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -529,7 +529,7 @@
 					)
 				)
 			)
-			(property "Value" ""
+			(property "Value" "Arduino Mega 2560"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -539,7 +539,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Aurbit:AurBit_Arduino_Mega_2560_R3"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -597,474 +597,6 @@
 					)
 				)
 				(pin input line
-					(at 53.34 36.83 180)
-					(length 2.54)
-					(name "PWM0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 53.34 35.56 180)
-					(length 2.54)
-					(name "PWM1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 53.34 33.02 180)
-					(length 2.54)
-					(name "AREF"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 53.34 31.75 180)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 53.34 30.48 180)
-					(length 2.54)
-					(name "pwm13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 53.34 27.94 180)
-					(length 2.54)
-					(name "pwm12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 53.34 26.67 180)
-					(length 2.54)
-					(name "pwm11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 53.34 24.13 180)
-					(length 2.54)
-					(name "pwm10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 53.34 21.59 180)
-					(length 2.54)
-					(name "pwm9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 53.34 17.78 180)
-					(length 2.54)
-					(name "pwm8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 53.34 15.24 180)
-					(length 2.54)
-					(name "pwm7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 53.34 12.7 180)
-					(length 2.54)
-					(name "pwm6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 53.34 10.16 180)
-					(length 2.54)
-					(name "pwm5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 53.34 7.62 180)
-					(length 2.54)
-					(name "pwm4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 53.34 5.08 180)
-					(length 2.54)
-					(name "pwm3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 53.34 2.54 180)
-					(length 2.54)
-					(name "pwm2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 53.34 0 180)
-					(length 2.54)
-					(name "TX0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 53.34 -2.54 180)
-					(length 2.54)
-					(name "RX0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "17"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 53.34 -6.35 180)
-					(length 2.54)
-					(name "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "18"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 53.34 -8.89 180)
-					(length 2.54)
-					(name "15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "19"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 53.34 -11.43 180)
-					(length 2.54)
-					(name "16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "20"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 53.34 -13.97 180)
-					(length 2.54)
-					(name "17"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "21"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 53.34 -16.51 180)
-					(length 2.54)
-					(name "18"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "22"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 53.34 -19.05 180)
-					(length 2.54)
-					(name "19"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "23"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 53.34 -21.59 180)
-					(length 2.54)
-					(name "SDA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "24"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 53.34 -24.13 180)
-					(length 2.54)
-					(name "SCL"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "25"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
 					(at 45.72 -26.67 90)
 					(length 2.54)
 					(name "5V1"
@@ -1074,7 +606,7 @@
 							)
 						)
 					)
-					(number "26"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1092,25 +624,7 @@
 							)
 						)
 					)
-					(number "27"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 41.91 -26.67 90)
-					(length 2.54)
-					(name "22"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "28"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1128,7 +642,7 @@
 							)
 						)
 					)
-					(number "29"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1137,16 +651,34 @@
 					)
 				)
 				(pin input line
-					(at 38.1 -26.67 90)
+					(at -41.91 -22.86 0)
 					(length 2.54)
-					(name "24"
+					(name "A15"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "30"
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 41.91 -26.67 90)
+					(length 2.54)
+					(name "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1164,7 +696,7 @@
 							)
 						)
 					)
-					(number "31"
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1173,16 +705,16 @@
 					)
 				)
 				(pin input line
-					(at 34.29 -26.67 90)
+					(at 38.1 -26.67 90)
 					(length 2.54)
-					(name "26"
+					(name "24"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "32"
+					(number "7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1200,7 +732,7 @@
 							)
 						)
 					)
-					(number "33"
+					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1209,16 +741,16 @@
 					)
 				)
 				(pin input line
-					(at 29.21 -26.67 90)
+					(at 34.29 -26.67 90)
 					(length 2.54)
-					(name "28"
+					(name "26"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "34"
+					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1236,7 +768,7 @@
 							)
 						)
 					)
-					(number "35"
+					(number "10"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1245,16 +777,16 @@
 					)
 				)
 				(pin input line
-					(at 25.4 -26.67 90)
+					(at 29.21 -26.67 90)
 					(length 2.54)
-					(name "30"
+					(name "28"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "36"
+					(number "11"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1272,7 +804,7 @@
 							)
 						)
 					)
-					(number "37"
+					(number "12"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1281,16 +813,16 @@
 					)
 				)
 				(pin input line
-					(at 21.59 -26.67 90)
+					(at 25.4 -26.67 90)
 					(length 2.54)
-					(name "32"
+					(name "30"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "38"
+					(number "13"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1308,7 +840,7 @@
 							)
 						)
 					)
-					(number "39"
+					(number "14"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1326,79 +858,7 @@
 							)
 						)
 					)
-					(number "40"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 13.97 -26.67 90)
-					(length 2.54)
-					(name "35"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "41"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 11.43 -26.67 90)
-					(length 2.54)
-					(name "36"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "42"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 8.89 -26.67 90)
-					(length 2.54)
-					(name "37"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "43"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 6.35 -26.67 90)
-					(length 2.54)
-					(name "38"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "44"
+					(number "15"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1416,7 +876,7 @@
 							)
 						)
 					)
-					(number "44.5"
+					(number "16"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1425,16 +885,16 @@
 					)
 				)
 				(pin input line
-					(at 3.81 -26.67 90)
+					(at 13.97 -26.67 90)
 					(length 2.54)
-					(name "39"
+					(name "35"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "44.25"
+					(number "17"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1443,16 +903,16 @@
 					)
 				)
 				(pin input line
-					(at -1.27 -26.67 90)
+					(at 6.35 -26.67 90)
 					(length 2.54)
-					(name "41"
+					(name "38"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "44.75"
+					(number "18"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1461,232 +921,16 @@
 					)
 				)
 				(pin input line
-					(at -3.81 -26.67 90)
+					(at 8.89 -26.67 90)
 					(length 2.54)
-					(name "42"
+					(name "37"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "45"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 -26.67 90)
-					(length 2.54)
-					(name "44"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "45.3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -11.43 -26.67 90)
-					(length 2.54)
-					(name "45"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "45.4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -13.97 -26.67 90)
-					(length 2.54)
-					(name "46"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "45.5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -16.51 -26.67 90)
-					(length 2.54)
-					(name "47"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "45.6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -19.05 -26.67 90)
-					(length 2.54)
-					(name "48"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "45.7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -21.59 -26.67 90)
-					(length 2.54)
-					(name "49"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "45.8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -5.08 -26.67 90)
-					(length 2.54)
-					(name "43"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "45.25"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -22.86 -26.67 90)
-					(length 2.54)
-					(name "50"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "46"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -25.4 -26.67 90)
-					(length 2.54)
-					(name "51"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "46.2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -27.94 -26.67 90)
-					(length 2.54)
-					(name "52"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "46.3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -30.48 -26.67 90)
-					(length 2.54)
-					(name "53"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "46.5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -33.02 -26.67 90)
-					(length 2.54)
-					(name "GND2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "46.7"
+					(number "19"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1704,7 +948,7 @@
 							)
 						)
 					)
-					(number "46.9"
+					(number "20"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1713,9 +957,459 @@
 					)
 				)
 				(pin input line
-					(at -40.64 -22.86 0)
+					(at -1.27 -26.67 90)
 					(length 2.54)
-					(name "A15"
+					(name "41"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 3.81 -26.67 90)
+					(length 2.54)
+					(name "39"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 11.43 -26.67 90)
+					(length 2.54)
+					(name "36"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 21.59 -26.67 90)
+					(length 2.54)
+					(name "32"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -3.81 -26.67 90)
+					(length 2.54)
+					(name "42"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -26.67 90)
+					(length 2.54)
+					(name "44"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -22.86 -26.67 90)
+					(length 2.54)
+					(name "50"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -25.4 -26.67 90)
+					(length 2.54)
+					(name "51"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -30.48 -26.67 90)
+					(length 2.54)
+					(name "53"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -19.05 -26.67 90)
+					(length 2.54)
+					(name "48"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "30"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -13.97 -26.67 90)
+					(length 2.54)
+					(name "46"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "31"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -27.94 -26.67 90)
+					(length 2.54)
+					(name "52"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "32"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -21.59 -26.67 90)
+					(length 2.54)
+					(name "49"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "33"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -33.02 -26.67 90)
+					(length 2.54)
+					(name "GND2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "34"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 -26.67 90)
+					(length 2.54)
+					(name "43"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "35"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -11.43 -26.67 90)
+					(length 2.54)
+					(name "45"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "36"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -16.51 -26.67 90)
+					(length 2.54)
+					(name "47"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "37"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 53.34 -24.13 180)
+					(length 2.54)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "38"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 53.34 -21.59 180)
+					(length 2.54)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "40"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 53.34 -19.05 180)
+					(length 2.54)
+					(name "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "41"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 53.34 -16.51 180)
+					(length 2.54)
+					(name "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "42"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 53.34 -13.97 180)
+					(length 2.54)
+					(name "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "43"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 53.34 -11.43 180)
+					(length 2.54)
+					(name "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "44"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 53.34 -8.89 180)
+					(length 2.54)
+					(name "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "45"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 53.34 -6.35 180)
+					(length 2.54)
+					(name "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "46"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 53.34 -2.54 180)
+					(length 2.54)
+					(name "RX0"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1723,6 +1417,312 @@
 						)
 					)
 					(number "47"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 53.34 2.54 180)
+					(length 2.54)
+					(name "pwm2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "48"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 53.34 7.62 180)
+					(length 2.54)
+					(name "pwm4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "49"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 53.34 10.16 180)
+					(length 2.54)
+					(name "pwm5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "50"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 53.34 12.7 180)
+					(length 2.54)
+					(name "pwm6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "51"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 53.34 5.08 180)
+					(length 2.54)
+					(name "pwm3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "52"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 53.34 0 180)
+					(length 2.54)
+					(name "TX0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "53"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 53.34 15.24 180)
+					(length 2.54)
+					(name "pwm7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "54"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 53.34 17.78 180)
+					(length 2.54)
+					(name "pwm8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "55"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 53.34 21.59 180)
+					(length 2.54)
+					(name "pwm9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "56"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 53.34 24.13 180)
+					(length 2.54)
+					(name "pwm10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "57"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 53.34 27.94 180)
+					(length 2.54)
+					(name "pwm12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "58"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 53.34 30.48 180)
+					(length 2.54)
+					(name "pwm13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "59"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 53.34 31.75 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "60"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 53.34 33.02 180)
+					(length 2.54)
+					(name "AREF"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "61"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 53.34 26.67 180)
+					(length 2.54)
+					(name "pwm11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "62"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 53.34 35.56 180)
+					(length 2.54)
+					(name "PWM1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "63"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 53.34 36.83 180)
+					(length 2.54)
+					(name "PWM0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "64"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1740,97 +1740,7 @@
 							)
 						)
 					)
-					(number "48"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -41.91 -19.05 0)
-					(length 2.54)
-					(name "A13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "49"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -41.91 -16.51 0)
-					(length 2.54)
-					(name "A12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "50"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -41.91 -13.97 0)
-					(length 2.54)
-					(name "A11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "51"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -41.91 -11.43 0)
-					(length 2.54)
-					(name "A10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "52"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -41.91 -8.89 0)
-					(length 2.54)
-					(name "A9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "53"
+					(number "65"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1848,223 +1758,97 @@
 							)
 						)
 					)
-					(number "54"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -41.91 -2.54 0)
-					(length 2.54)
-					(name "A7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "55"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -41.91 0 0)
-					(length 2.54)
-					(name "A6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "56"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -41.91 2.54 0)
-					(length 2.54)
-					(name "A5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "57"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -41.91 5.08 0)
-					(length 2.54)
-					(name "A4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "58"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -41.91 7.62 0)
-					(length 2.54)
-					(name "A3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "59"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -41.91 10.16 0)
-					(length 2.54)
-					(name "A2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "60"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -41.91 12.7 0)
-					(length 2.54)
-					(name "A1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "61"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -41.91 15.24 0)
-					(length 2.54)
-					(name "A0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "62"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -41.91 19.05 0)
-					(length 2.54)
-					(name "VIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "63"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -41.91 21.59 0)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "64"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -41.91 24.13 0)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "65"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -41.91 26.67 0)
-					(length 2.54)
-					(name "5V"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
 					(number "66"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -41.91 -19.05 0)
+					(length 2.54)
+					(name "A13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "67"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -41.91 -16.51 0)
+					(length 2.54)
+					(name "A12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "68"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -41.91 -13.97 0)
+					(length 2.54)
+					(name "A11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "69"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -41.91 -11.43 0)
+					(length 2.54)
+					(name "A10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "70"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -41.91 -8.89 0)
+					(length 2.54)
+					(name "A9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "71"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2082,7 +1866,151 @@
 							)
 						)
 					)
-					(number "67"
+					(number "72"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -41.91 -2.54 0)
+					(length 2.54)
+					(name "A7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "73"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -41.91 0 0)
+					(length 2.54)
+					(name "A6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "74"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -41.91 2.54 0)
+					(length 2.54)
+					(name "A5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "75"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -41.91 5.08 0)
+					(length 2.54)
+					(name "A4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "76"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -41.91 7.62 0)
+					(length 2.54)
+					(name "A3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "77"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -41.91 10.16 0)
+					(length 2.54)
+					(name "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "78"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -41.91 12.7 0)
+					(length 2.54)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "79"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -41.91 15.24 0)
+					(length 2.54)
+					(name "A0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "80"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2100,7 +2028,79 @@
 							)
 						)
 					)
-					(number "68"
+					(number "82"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -41.91 19.05 0)
+					(length 2.54)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "83"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -41.91 21.59 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "84"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -41.91 24.13 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "85"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -41.91 26.67 0)
+					(length 2.54)
+					(name "5V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "86"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2118,7 +2118,7 @@
 							)
 						)
 					)
-					(number "69"
+					(number "87"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2136,7 +2136,7 @@
 							)
 						)
 					)
-					(number "70"
+					(number "88"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3095,7 +3095,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Aurbit:Wired_Solder_4Pins"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4125,7 +4125,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Aurbit:Logic_Level_Converter_AD227"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4575,7 +4575,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x07_P2.54mm_Vertical_SMD"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -7409,6 +7409,16 @@
 	)
 	(wire
 		(pts
+			(xy 205.74 60.96) (xy 205.74 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e5b0a6e-578f-43d0-8543-2f0d80f09bdb")
+	)
+	(wire
+		(pts
 			(xy 88.9 180.34) (xy 77.47 180.34)
 		)
 		(stroke
@@ -8219,6 +8229,16 @@
 	)
 	(wire
 		(pts
+			(xy 99.06 119.38) (xy 99.06 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60e00815-a828-4dd7-a407-a95d0129d859")
+	)
+	(wire
+		(pts
 			(xy 234.95 31.75) (xy 250.19 31.75)
 		)
 		(stroke
@@ -8286,6 +8306,26 @@
 			(type default)
 		)
 		(uuid "6b2a8936-baec-4520-8ae0-efc0e73c5a74")
+	)
+	(wire
+		(pts
+			(xy 73.66 71.12) (xy 90.17 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c4e7f4e-bcb9-4974-86fd-f8cff4614ce4")
+	)
+	(wire
+		(pts
+			(xy 96.52 119.38) (xy 96.52 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c50d832-3725-441b-b0f2-643e131d4684")
 	)
 	(wire
 		(pts
@@ -8656,6 +8696,16 @@
 			(type default)
 		)
 		(uuid "988addf1-6462-4f4e-b5de-162931ea9643")
+	)
+	(wire
+		(pts
+			(xy 96.52 121.92) (xy 88.9 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99391df0-5231-42a1-8a9e-61ccea9f8ce6")
 	)
 	(wire
 		(pts
@@ -9099,6 +9149,16 @@
 	)
 	(wire
 		(pts
+			(xy 99.06 124.46) (xy 96.52 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf3af5ac-fe09-4bb1-a28b-17adc44030d9")
+	)
+	(wire
+		(pts
 			(xy 78.74 91.44) (xy 67.31 91.44)
 		)
 		(stroke
@@ -9456,6 +9516,16 @@
 			(type default)
 		)
 		(uuid "f1c3ce39-1b99-4f1c-a286-a397a0894736")
+	)
+	(wire
+		(pts
+			(xy 185.42 60.96) (xy 205.74 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2bc65a7-5a6f-413d-83de-8178f8064db0")
 	)
 	(wire
 		(pts
@@ -9897,7 +9967,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:TSOT-23-5"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5_HandSoldering"
 			(at 27.94 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -10066,7 +10136,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "AurBit:WiredLEDs"
+		(property "Footprint" "Aurbit:WiredLEDs"
 			(at 45.212 93.98 90)
 			(hide yes)
 			(show_name no)
@@ -10149,7 +10219,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "AurBit:Wired_Solder_4Pins"
+		(property "Footprint" "Aurbit:Wired_Solder_4Pins"
 			(at 209.55 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -10393,7 +10463,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Aurbit:Logic_Level_Converter_AD227"
 			(at 172.72 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -10506,7 +10576,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "AurBit:Wired_Solder_4Pins"
+		(property "Footprint" "Aurbit:Wired_Solder_4Pins"
 			(at 147.32 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -10594,7 +10664,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Aurbit:DRV8833-footprint"
 			(at 255.27 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -10790,7 +10860,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Aurbit:CODACA_SPRH74_7.3x7.3mm"
 			(at 43.18 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -11029,7 +11099,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Aurbit:CODACA_SPRH74_7.3x7.3mm"
 			(at 74.93 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -11501,7 +11571,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "AurBit:WiredLEDs"
+		(property "Footprint" "Aurbit:WiredLEDs"
 			(at 255.27 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -11584,7 +11654,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "AurBit:Wired_Solder_4Pins"
+		(property "Footprint" "Aurbit:Wired_Solder_4Pins"
 			(at 125.73 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -11755,7 +11825,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "AurBit:WiredLEDs"
+		(property "Footprint" "Aurbit:WiredLEDs"
 			(at 96.52 190.5 0)
 			(hide yes)
 			(show_name no)
@@ -11798,6 +11868,84 @@
 			(project "AurBit PCB"
 				(path "/ded9e70f-fd5e-44d7-855d-825746fc90e2"
 					(reference "J20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 96.52 124.46 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3fb4fa4b-df60-4cb1-909e-9f0732da7cd8")
+		(property "Reference" "#PWR042"
+			(at 96.52 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 96.52 129.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 96.52 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 96.52 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ac39bdb3-eab4-4134-afd6-b871dba09d53")
+		)
+		(instances
+			(project "AurBit PCB"
+				(path "/ded9e70f-fd5e-44d7-855d-825746fc90e2"
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -11993,7 +12141,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "AurBit:WiredLEDs"
+		(property "Footprint" "Aurbit:WiredLEDs"
 			(at 51.562 152.4 90)
 			(hide yes)
 			(show_name no)
@@ -12231,7 +12379,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Aurbit:PassiveBuzzer_AD319"
 			(at 75.565 163.83 90)
 			(hide yes)
 			(show_name no)
@@ -12440,7 +12588,7 @@
 		(pin "8"
 			(uuid "d5695396-19c8-455a-a7fe-90c7288d2c71")
 		)
-		(pin "0"
+		(pin "88"
 			(uuid "d8e9cc7c-ddff-4187-ae1b-c773b6fa8112")
 		)
 		(pin "22"
@@ -12461,22 +12609,22 @@
 		(pin "21"
 			(uuid "3950d919-fda4-494f-b3af-ecf19992ace3")
 		)
-		(pin "45.3"
+		(pin "82"
 			(uuid "0e9840bb-7fd6-4d40-a0b2-d4975eb1d469")
 		)
 		(pin "45"
 			(uuid "778cb3a2-7ccd-49c7-af78-c088337ed58e")
 		)
-		(pin "45.7"
+		(pin "87"
 			(uuid "8fee2dab-cae7-4f18-beb7-7caaab904cff")
 		)
 		(pin "43"
 			(uuid "0f6568e5-4428-4ccf-9d17-b0ac8baf7ef8")
 		)
-		(pin "44.5"
+		(pin "79"
 			(uuid "805826b6-1e61-498b-84dc-d3851872b133")
 		)
-		(pin "45.25"
+		(pin "85"
 			(uuid "9ebc44eb-67f3-4322-b062-ae4c6cf5bf80")
 		)
 		(pin "26"
@@ -12485,7 +12633,7 @@
 		(pin "40"
 			(uuid "40a6f362-8bd9-41df-a3be-974e973e895b")
 		)
-		(pin "45.6"
+		(pin "78"
 			(uuid "84d736c1-5b91-456e-b240-718285cd0658")
 		)
 		(pin "27"
@@ -12497,7 +12645,7 @@
 		(pin "31"
 			(uuid "810b5790-55f0-456a-b98a-fe4b918b1689")
 		)
-		(pin "44.75"
+		(pin "84"
 			(uuid "66141966-ab0d-4239-af50-2b2b5027cf82")
 		)
 		(pin "25"
@@ -12506,7 +12654,7 @@
 		(pin "28"
 			(uuid "9af6bd6c-e6f1-46ba-ba8b-b11f88aa538d")
 		)
-		(pin "45.4"
+		(pin "86"
 			(uuid "ee00b7de-b6b3-4608-8b39-1a52f1b0aa8e")
 		)
 		(pin "24"
@@ -12515,13 +12663,13 @@
 		(pin "29"
 			(uuid "56606f9d-b64c-4333-b148-e9066d8e5a22")
 		)
-		(pin "39"
+		(pin "83"
 			(uuid "0186b630-77de-4e32-9cfb-d849338d1252")
 		)
 		(pin "38"
 			(uuid "5d715a14-d0ff-44b9-a7fe-66c5138a5186")
 		)
-		(pin "45.8"
+		(pin "80"
 			(uuid "225bbddf-a8e3-48ef-8a80-96823ec00796")
 		)
 		(pin "34"
@@ -12542,7 +12690,7 @@
 		(pin "41"
 			(uuid "a223f77b-2403-4eaa-9605-68252a77a5e1")
 		)
-		(pin "45.5"
+		(pin "72"
 			(uuid "c5e9914e-036e-4cd4-b93b-94df8e1a1446")
 		)
 		(pin "37"
@@ -12551,13 +12699,13 @@
 		(pin "44"
 			(uuid "bf117b29-323f-4b6b-a121-8484b9e05569")
 		)
-		(pin "44.25"
+		(pin "73"
 			(uuid "08742449-6fc0-434d-baf6-89c67299789f")
 		)
 		(pin "32"
 			(uuid "3cdd3d2e-6b38-4f5d-89b6-0a3eef6ed86d")
 		)
-		(pin "46.5"
+		(pin "76"
 			(uuid "78980c11-49e2-49bf-8603-ddc21cbf8240")
 		)
 		(pin "50"
@@ -12569,7 +12717,7 @@
 		(pin "53"
 			(uuid "9422497d-88f6-40a5-a25b-d2dad3efc5f2")
 		)
-		(pin "46.2"
+		(pin "75"
 			(uuid "5a92fd42-1a45-46df-b7f5-82fccdef2cf0")
 		)
 		(pin "49"
@@ -12581,13 +12729,13 @@
 		(pin "48"
 			(uuid "0d6e91fd-a34f-4234-9c85-b7287217eac7")
 		)
-		(pin "46.7"
+		(pin "71"
 			(uuid "10aee796-dd9d-4e25-8c9d-f702a70a46d9")
 		)
 		(pin "55"
 			(uuid "356b13b5-a663-469c-8a3b-ba86722bc7e1")
 		)
-		(pin "46.9"
+		(pin "77"
 			(uuid "2437ec39-5d01-4b08-bde2-ec225101f90b")
 		)
 		(pin "46"
@@ -12599,7 +12747,7 @@
 		(pin "47"
 			(uuid "b4e819ac-9407-4c6a-b0a9-84886e4fef54")
 		)
-		(pin "46.3"
+		(pin "74"
 			(uuid "db08be33-1bd2-4ba3-98e1-9b4b44b5dbe6")
 		)
 		(instances
@@ -12879,7 +13027,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x07_P2.54mm_Vertical_SMD"
+		(property "Footprint" "Aurbit:DRV8833-footprint"
 			(at 255.27 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -12998,7 +13146,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "AurBit:WiredLEDs"
+		(property "Footprint" "Aurbit:WiredLEDs"
 			(at 93.98 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -13787,7 +13935,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SMB_Handsoldering"
 			(at 73.66 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -14211,7 +14359,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "AurBit:Wired_Solder_4Pins"
+		(property "Footprint" "Aurbit:Wired_Solder_4Pins"
 			(at 214.63 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -14260,6 +14408,84 @@
 			(project "AurBit PCB"
 				(path "/ded9e70f-fd5e-44d7-855d-825746fc90e2"
 					(reference "J17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 205.74 62.23 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "981e61eb-6caf-4569-b8ab-b1e06d62b75e")
+		(property "Reference" "#PWR043"
+			(at 205.74 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 205.74 67.31 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 205.74 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 205.74 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 205.74 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8bc9fa67-c75a-4784-a1d6-c29ba6f31d1a")
+		)
+		(instances
+			(project "AurBit PCB"
+				(path "/ded9e70f-fd5e-44d7-855d-825746fc90e2"
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -14422,6 +14648,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 73.66 71.12 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a23c4042-5e33-4c54-b2c5-cea3dda3e9b7")
+		(property "Reference" "#PWR040"
+			(at 73.66 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 73.66 76.2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 73.66 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 73.66 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4be9070e-3c40-47b0-955d-a338fdb41400")
+		)
+		(instances
+			(project "AurBit PCB"
+				(path "/ded9e70f-fd5e-44d7-855d-825746fc90e2"
+					(reference "#PWR040")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "Conn_01x04_2")
 		(lib_id "Connector_Generic:Conn_01x04")
 		(at 177.8 157.48 0)
@@ -14456,7 +14760,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "AurBit:Wired_Solder_4Pins"
+		(property "Footprint" "Aurbit:Wired_Solder_4Pins"
 			(at 177.8 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -14544,7 +14848,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "AurBit:WiredLEDs"
+		(property "Footprint" "Aurbit:WiredLEDs"
 			(at 256.54 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -14593,6 +14897,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 88.9 121.92 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "affe3a4b-37da-4047-8f11-64e3cda705a3")
+		(property "Reference" "#PWR041"
+			(at 88.9 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 88.9 127 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 88.9 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 88.9 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a4cd97b6-a6c1-47b9-8583-98701c97d57a")
+		)
+		(instances
+			(project "AurBit PCB"
+				(path "/ded9e70f-fd5e-44d7-855d-825746fc90e2"
+					(reference "#PWR041")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
 		(at 256.54 138.43 0)
 		(unit 1)
@@ -14626,7 +15008,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "AurBit:WiredLEDs"
+		(property "Footprint" "Aurbit:WiredLEDs"
 			(at 256.54 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -14708,7 +15090,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "AurBit:Wired_Solder_4Pins"
+		(property "Footprint" "Aurbit:Wired_Solder_4Pins"
 			(at 139.7 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -14797,9 +15179,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "AurBit:WiredLEDs"
+		(property "Footprint" "Aurbit:WiredLEDs"
 			(at 59.69 121.92 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14880,7 +15261,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "AurBit:WiredLEDs"
+		(property "Footprint" "Aurbit:WiredLEDs"
 			(at 22.86 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -15119,7 +15500,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "AurBit:Wired_Solder_4Pins"
+		(property "Footprint" "Aurbit:Wired_Solder_4Pins"
 			(at 111.76 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -15285,7 +15666,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "AurBit:WiredLEDs"
+		(property "Footprint" "Aurbit:WiredLEDs"
 			(at 76.962 95.25 90)
 			(hide yes)
 			(show_name no)
@@ -15446,7 +15827,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "AurBit:Wired_Solder_4Pins"
+		(property "Footprint" "Aurbit:Wired_Solder_4Pins"
 			(at 118.11 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -15691,7 +16072,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "AurBit:WiredLEDs"
+		(property "Footprint" "Aurbit:WiredLEDs"
 			(at 24.13 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -15774,7 +16155,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "AurBit:WiredLEDs"
+		(property "Footprint" "Aurbit:WiredLEDs"
 			(at 21.59 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -15856,7 +16237,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "AurBit:WiredLEDs"
+		(property "Footprint" "Aurbit:WiredLEDs"
 			(at 255.27 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -15937,7 +16318,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SMB_Handsoldering"
 			(at 39.37 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -16019,7 +16400,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:TSOT-23-5"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5_HandSoldering"
 			(at 59.69 95.25 0)
 			(hide yes)
 			(show_name no)
